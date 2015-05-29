@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>datadiy login</title>
+</head>
+<body>
+<form action="datadiy/login" method="post">
+<table>
+<tr>
+<td>工号：<input type="text" name="staffNumber" size="15" maxlength="15"></td>
+</tr>
+<tr>
+<td>密码：<input type="password" name="password" size="15"></td>
+</tr>
+<tr>
+<td><input type="submit" name="login_submit" value="登录"></td>
+</tr>
+</table>
+
+
+
+</form>
+</body>
+</html>
